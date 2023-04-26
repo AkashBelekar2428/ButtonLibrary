@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ButtonColor_Example' do
+  pod 'ButtonColor', :path => '../'
+
+  target 'ButtonColor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
