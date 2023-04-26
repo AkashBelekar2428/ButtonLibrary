@@ -1,0 +1,16 @@
+PODS:
+  - ButtonColor (0.1.0)
+
+DEPENDENCIES:
+  - ButtonColor (from `../`)
+
+EXTERNAL SOURCES:
+  ButtonColor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ButtonColor: be35a45ac0543da7d3d5751edca0e9f5dedf67b0
+
+PODFILE CHECKSUM: b4a9004fba6dc1beb6cf9d9c2fff712aaa0aac25
+
+COCOAPODS: 1.12.1
