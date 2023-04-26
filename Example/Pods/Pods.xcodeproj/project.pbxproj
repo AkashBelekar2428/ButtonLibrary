@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0519EB2E5CDAF7DF79C6CA14C88B51DB /* ButtonColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82F69BC5E0F5B263AD9760D566CB9FC1 /* ButtonColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B25830EDB94FBDA077AE2B8822D3B3A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE25B6629EDC91A17679608F22CC7BED /* ReplaceMe.swift */; };
 		1FA7369E04AE1D419B2223B9E2D88986 /* Pods-ButtonColor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 630F951C68B704F26C40454F682E5F07 /* Pods-ButtonColor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		252A2195F36860F0A94D92C133AE59B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8227E8BDDE47B034989A2B4FE9407173 /* ButtonColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCE5CDF227E51A4FF635ED429DEEF3 /* ButtonColor-dummy.m */; };
 		8D1B47C1B48412EC8AABDF21F65008CC /* Pods-ButtonColor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAE6B23E947D1C5DFE4252DF58C6BB8 /* Pods-ButtonColor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E8AD0E69E7EEA7668460CEAB5EA479F /* Pods-ButtonColor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF213875FCAC85BE164FDCF53128D03 /* Pods-ButtonColor_Example-dummy.m */; };
 		9EAAA5BDA491192BBFBA7B472E600DF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AEDE576D29F91DF800DFE37D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDE576C29F91DF800DFE37D /* Color.swift */; };
 		C95E921D9A1548D7838ED2C1016FF0EA /* Pods-ButtonColor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADCB4D10983658B4A5676C24843DA98 /* Pods-ButtonColor_Tests-dummy.m */; };
 		D2DDC9AF817EEC99977EA1C09C62EEC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -37,18 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1655E092102FA581CE4440D5181AC481 /* ButtonColor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ButtonColor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1655E092102FA581CE4440D5181AC481 /* ButtonColor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ButtonColor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1E12468D8AB6D7D0E8A0121CFB73357E /* Pods-ButtonColor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ButtonColor_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1E8AC9E42AEBEBBA445E6ABD02E5D99D /* Pods-ButtonColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ButtonColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C44EE694759CEAF2B3570E170E00829 /* ButtonColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ButtonColor.debug.xcconfig; sourceTree = "<group>"; };
 		3ADCB4D10983658B4A5676C24843DA98 /* Pods-ButtonColor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ButtonColor_Tests-dummy.m"; sourceTree = "<group>"; };
 		3B97AD87FDCFD3F7F6BCB0BB016B6E99 /* Pods-ButtonColor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ButtonColor_Example.modulemap"; sourceTree = "<group>"; };
-		3DE9E89BB01990CFDD69A7E6BB47D037 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3DE9E89BB01990CFDD69A7E6BB47D037 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		43FE0E94F70D17BACFB5A3597426AF4A /* ButtonColor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ButtonColor-Info.plist"; sourceTree = "<group>"; };
 		4DAE6B23E947D1C5DFE4252DF58C6BB8 /* Pods-ButtonColor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ButtonColor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5C06AC0693B0ABFECCC8007AD0A2F03F /* Pods-ButtonColor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ButtonColor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		630F951C68B704F26C40454F682E5F07 /* Pods-ButtonColor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ButtonColor_Example-umbrella.h"; sourceTree = "<group>"; };
-		637B3CCD1F9B9673596C540A3F080463 /* ButtonColor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ButtonColor; path = ButtonColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		637B3CCD1F9B9673596C540A3F080463 /* ButtonColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ButtonColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B0831D17675D79BB2AB05FBF9447C90 /* Pods-ButtonColor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ButtonColor_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		800AA3CD769278F86B7496BEF37DEDF3 /* Pods-ButtonColor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ButtonColor_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -56,19 +56,19 @@
 		82F69BC5E0F5B263AD9760D566CB9FC1 /* ButtonColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ButtonColor-umbrella.h"; sourceTree = "<group>"; };
 		8BBCE5CDF227E51A4FF635ED429DEEF3 /* ButtonColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ButtonColor-dummy.m"; sourceTree = "<group>"; };
 		8DF213875FCAC85BE164FDCF53128D03 /* Pods-ButtonColor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ButtonColor_Example-dummy.m"; sourceTree = "<group>"; };
-		90DA0A83092F517096B5F07261E7863C /* Pods-ButtonColor_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ButtonColor_Tests"; path = Pods_ButtonColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DA0A83092F517096B5F07261E7863C /* Pods_ButtonColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButtonColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99631E5F8930AFB8ECCE6455569B2759 /* Pods-ButtonColor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ButtonColor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A14B3F9B02352A27BE4AF5D7106A5CCC /* Pods-ButtonColor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ButtonColor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A6C4BD563FEE7349B0E0F4C297DE6A8B /* ButtonColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ButtonColor.release.xcconfig; sourceTree = "<group>"; };
+		AEDE576C29F91DF800DFE37D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		BACDB58E84F8F50A3CECD307F13AC748 /* Pods-ButtonColor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ButtonColor_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BE25B6629EDC91A17679608F22CC7BED /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ButtonColor/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		BF008F3BC4A300E30B319347B3B0B97D /* Pods-ButtonColor_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ButtonColor_Example"; path = Pods_ButtonColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF008F3BC4A300E30B319347B3B0B97D /* Pods_ButtonColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButtonColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F4429CA2C4998E3DF73CB301127E9C /* ButtonColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ButtonColor-prefix.pch"; sourceTree = "<group>"; };
 		D9AFFE934CD0DD5638029704D9A45EE3 /* Pods-ButtonColor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ButtonColor_Example-Info.plist"; sourceTree = "<group>"; };
 		E44F4C4E88647D8ADB832291C32BEEE5 /* Pods-ButtonColor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ButtonColor_Tests.modulemap"; sourceTree = "<group>"; };
 		F3D0BA368D0853B7EB93957E85D6497E /* Pods-ButtonColor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ButtonColor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FCF5202C58CB75D17AAED73CB6106DE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FCF5202C58CB75D17AAED73CB6106DE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FDB045B8AFF7ABB4781FEC5590B8A56E /* Pods-ButtonColor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ButtonColor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,10 +143,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		AEDE576B29F91DE000DFE37D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AEDE576C29F91DF800DFE37D /* Color.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		C50EC9C15F51DE5000C7456B3AD8817C /* ButtonColor */ = {
 			isa = PBXGroup;
 			children = (
-				BE25B6629EDC91A17679608F22CC7BED /* ReplaceMe.swift */,
+				AEDE576B29F91DE000DFE37D /* Source */,
 				3C16F88F800FEDF52E16F3C20C061F4E /* Pod */,
 				D2F0D37372E7F540D89CD561A80E3855 /* Support Files */,
 			);
@@ -191,9 +199,9 @@
 		E0360A13E9CAC91B16D4D5EFE8C986D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				637B3CCD1F9B9673596C540A3F080463 /* ButtonColor */,
-				BF008F3BC4A300E30B319347B3B0B97D /* Pods-ButtonColor_Example */,
-				90DA0A83092F517096B5F07261E7863C /* Pods-ButtonColor_Tests */,
+				637B3CCD1F9B9673596C540A3F080463 /* ButtonColor.framework */,
+				BF008F3BC4A300E30B319347B3B0B97D /* Pods_ButtonColor_Example.framework */,
+				90DA0A83092F517096B5F07261E7863C /* Pods_ButtonColor_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,7 +277,7 @@
 			);
 			name = "Pods-ButtonColor_Tests";
 			productName = Pods_ButtonColor_Tests;
-			productReference = 90DA0A83092F517096B5F07261E7863C /* Pods-ButtonColor_Tests */;
+			productReference = 90DA0A83092F517096B5F07261E7863C /* Pods_ButtonColor_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		20AF06BD1FEAF4C72C1ED966BF6B980D /* ButtonColor */ = {
@@ -287,7 +295,7 @@
 			);
 			name = ButtonColor;
 			productName = ButtonColor;
-			productReference = 637B3CCD1F9B9673596C540A3F080463 /* ButtonColor */;
+			productReference = 637B3CCD1F9B9673596C540A3F080463 /* ButtonColor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2A18FDE61951A5631BBC760070E2F7FB /* Pods-ButtonColor_Example */ = {
@@ -306,7 +314,7 @@
 			);
 			name = "Pods-ButtonColor_Example";
 			productName = Pods_ButtonColor_Example;
-			productReference = BF008F3BC4A300E30B319347B3B0B97D /* Pods-ButtonColor_Example */;
+			productReference = BF008F3BC4A300E30B319347B3B0B97D /* Pods_ButtonColor_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +324,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					20AF06BD1FEAF4C72C1ED966BF6B980D = {
+						LastSwiftMigration = "";
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -368,7 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8227E8BDDE47B034989A2B4FE9407173 /* ButtonColor-dummy.m in Sources */,
-				1B25830EDB94FBDA077AE2B8822D3B3A /* ReplaceMe.swift in Sources */,
+				AEDE576D29F91DF800DFE37D /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2C44EE694759CEAF2B3570E170E00829 /* ButtonColor.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -422,7 +436,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ButtonColor/ButtonColor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ButtonColor/ButtonColor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ButtonColor/ButtonColor.modulemap";
 				PRODUCT_MODULE_NAME = ButtonColor;
@@ -430,7 +444,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -453,7 +468,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ButtonColor_Tests/Pods-ButtonColor_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ButtonColor_Tests/Pods-ButtonColor_Tests.modulemap";
@@ -475,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A6C4BD563FEE7349B0E0F4C297DE6A8B /* ButtonColor.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -487,7 +503,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ButtonColor/ButtonColor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ButtonColor/ButtonColor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ButtonColor/ButtonColor.modulemap";
 				PRODUCT_MODULE_NAME = ButtonColor;
@@ -495,7 +511,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -519,7 +535,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ButtonColor_Example/Pods-ButtonColor_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ButtonColor_Example/Pods-ButtonColor_Example.modulemap";
@@ -571,6 +587,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -586,13 +603,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -614,7 +630,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ButtonColor_Example/Pods-ButtonColor_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ButtonColor_Example/Pods-ButtonColor_Example.modulemap";
@@ -667,6 +683,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -685,7 +702,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -714,7 +731,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ButtonColor_Tests/Pods-ButtonColor_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ButtonColor_Tests/Pods-ButtonColor_Tests.modulemap";
